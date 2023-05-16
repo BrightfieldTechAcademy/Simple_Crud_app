@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML JavaScript DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Management System</h1>
+    <h2>Add a new Student</h2>
+    <form id="form">
+        <div>
+            <label for="name">Name :</label>
+            <input name="name" type="text" required><br>
+        </div>
+
+        <div>
+            <label for="age">Age :</label>
+            <input name="age" type="number" required><br>
+        </div>
+
+        <div>
+            <label for="email">Email :</label>
+            <input name="email" type="email" required><br>
+        </div>
+
+        <div>
+            <label for="password">Phone Number</label>
+            <input name="tel" type="number" required><br>
+        </div>
+        <input type="submit">
+    </form>
+
+    <h2>List of Student</h2>
+    <table id="students-table">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Action</th>
+        </tr>
+
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>
